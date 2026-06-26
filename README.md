@@ -1,16 +1,33 @@
-# quiz_platform
+# 🧠 Flutter Quiz App
 
-A new Flutter project.
+An interactive cross-platform Quiz Application built using Flutter. Supports multiple categories, timed quizzes, and instant results calculation.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- **Timed Quizzes:** Timer countdown per question with auto-submit capabilities.
+- **Category Selection:** Choose from multiple subjects and difficulty levels.
+- **Interactive Result Screen:** Detailed score breakdown, correct/incorrect answer reviews, and score percentage.
+- **Smooth Page Transitions:** Clean, slide-based navigation between questions.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
+- **SDK:** Flutter (Cross-platform for Android & iOS)
+- **Programming Language:** Dart
+- **State Management:** Flutter StatefulWidgets and clean class architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 How to Run
+1. **Prerequisites:** Ensure you have the **Flutter SDK** and an emulator (Android/iOS) set up.
+2. **Clone the repository:**
+   ```bash
+   git clone https://github.com/saravana-GT/flutter-quiz-app.git
+   ```
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+4. **Launch the application:**
+   - Connect your test device or boot up your emulator.
+   - Run the app using:
+     ```bash
+     flutter run
+     ```
